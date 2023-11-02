@@ -1,4 +1,3 @@
-// src/components/Square.js
 import React from "react";
 
 function Square({ value, onClick }) {

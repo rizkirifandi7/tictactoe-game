@@ -1,4 +1,3 @@
-// store/index.js
 import { createStore } from "redux";
 import gameReducer from "./gameReducer";
 

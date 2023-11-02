@@ -1,4 +1,3 @@
-// src/store/actions/gameActions.js
 export const selectSquare = (newSquares) => ({
 	type: "SELECT_SQUARE",
 	payload: newSquares,
