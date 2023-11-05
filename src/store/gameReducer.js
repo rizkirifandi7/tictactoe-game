@@ -1,3 +1,6 @@
+import { createStore } from "redux";
+// import gameReducer from "./gameReducer";
+
 const initialState = {
 	squares: Array(9).fill(null),
 	winner: null,
@@ -54,4 +57,8 @@ function checkWinner(squares) {
 	return null;
 }
 
-export default gameReducer;
+// export default gameReducer;
+
+const store = createStore(gameReducer);
+
+export default store;

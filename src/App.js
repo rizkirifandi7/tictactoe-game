@@ -1,7 +1,7 @@
 import React from "react";
 import Game from "./components/Game";
 import { Provider } from "react-redux";
-import store from "./store/index";
+import store from "./store/gameReducer";
 
 function App() {
 	return (

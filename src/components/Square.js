@@ -5,9 +5,7 @@ function Square({ value, onClick }) {
 
 	return (
 		<button className={`square focus:outline-none ${colorClass} shadow-md border-player`} onClick={onClick}>
-			<div className="flex items-center justify-center h-full">
-				{value}
-			</div>
+			<div className="flex items-center justify-center h-full">{value}</div>
 		</button>
 	);
 }
